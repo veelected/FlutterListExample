@@ -9,11 +9,13 @@ class QuoteCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Card(
       margin: EdgeInsets.fromLTRB(16, 16, 16, 0),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Column(
+
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Text(quotes.text,
